@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class SomeController {
 	@RequestMapping("/")
 	public String redirect(Model model) {
-		model.addAttribute("message", "Saurabh Jain ");
+		model.addAttribute("message", "Saurabh Jain Jain ");
 		return "saurabh";
 	}
 }
